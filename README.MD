@@ -141,4 +141,4 @@ grub-mkconfig -o /boot/grub/grub.cfg
 umount -R /mnt
 reboot
 </code></pre>
-<h2 id="👉-custom"><a href="https://github.com/tripleseven190504/arch/blob/main/CUSTOM.md">👉 Custom</a></h2>
+<h2 id="👉-custom"><a href="https://github.com/tripleseven190504/arch/blob/main/CUSTOM.MD">👉 Custom</a></h2>
