@@ -40,7 +40,8 @@ sudo chsh --shell $(which zsh) $USER
 <pre><code class="language-shell">sudo pacman -S ttf-jetbrains-mono-nerd
 </code></pre>
 <ul>
-    <li>Trình duyệt Google Chrome:</li>
+    <li>Trình duyệt Google Chrome:</li><img alt="Static Badge" src="https://img.shields.io/badge/Chrome-red?style=social&logo=google-chrome&logoColor=red">
+
 </ul>
 <pre><code class="language-shell">yay -Sy google-chrome
 </code></pre>
