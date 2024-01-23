@@ -1,7 +1,7 @@
 <h1 id="cài-đặt-arch-linux-🐧">Cài đặt Arch Linux 🐧</h1>
 <h2 id="chuẩn-bị-🛠️">Chuẩn bị 🛠️</h2>
 <h3 id="tạo-usb-boot-bằng-ventoy">Tạo USB Boot bằng Ventoy:</h3>
-<p><strong>Tạo USB Boot:</strong>
+<p><strong>Tạo USB Boot:</strong><br>
     -   Tải phiên bản mới nhất của Ventoy trên GitHub: <a href="https://github.com/ventoy/Ventoy/releases/">Ventoy GitHub</a>.<br>
     -   Gắn USB vào máy tính của bạn.<br>
     -   Mở Ventoy và chọn USB bạn muốn tạo.<br>
