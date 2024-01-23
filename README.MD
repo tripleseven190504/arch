@@ -1,5 +1,43 @@
 <h1 id="cài-đặt-arch-linux-🐧">Cài đặt Arch Linux 🐧</h1>
 <h2 id="chuẩn-bị-🛠️">Chuẩn bị 🛠️</h2>
+<h3 id="tạo-usb-boot-bằng-ventoy">Tạo USB Boot bằng Ventoy:</h3>
+<p><strong>Tạo USB Boot:</strong>
+    -   Tải phiên bản mới nhất của Ventoy trên GitHub: <a href="https://github.com/ventoy/Ventoy/releases/">Ventoy GitHub</a>.
+    -   Gắn USB vào máy tính của bạn.
+    -   Mở Ventoy và chọn USB bạn muốn tạo.
+    -  Chọn <a href="https://quantrimang.com/cong-nghe/gpt-va-mbr-khac-nhau-nhu-the-nao-khi-phan-vung-o-dia-122635">GPT hoặc MBR</a> từ  Option
+    -   Nhấn nút &quot;Install&quot; để cài đặt Ventoy vào USB.
+    -   Sao chép file <a href="https://mirror.bizflycloud.vn/archlinux/iso/latest/">ISO của Arch Linux</a> (và bất kỳ hệ điều hành khác bạn muốn cài đặt) vào USB.</p>
+<h3 id="thiết-lập-bios-để-boot-từ-usb">Thiết lập BIOS để Boot từ USB:</h3>
+<p>Lưu ý: Các bước này có thể thay đổi tùy thuộc vào phiên bản BIOS của bạn. Dưới đây là một hướng dẫn tổng quát:</p>
+<ol>
+<li><p><strong>Khởi động lại máy tính và vào BIOS:</strong></p>
+<ul>
+<li>Khởi động lại máy và nhấn phím để truy cập BIOS. Phím này thường là F2, F10, F12, Esc hoặc Delete. Bạn cần kiểm tra <a href="https://www.thegioididong.com/hoi-dap/huong-dan-cach-vao-bios-win-10-va-cac-phim-tat-1532092#:~:text=B%E1%BA%A5m%20gi%E1%BB%AF%20ph%C3%ADm%20F2%20%C4%91%E1%BB%83%20v%C3%A0o%20%C4%91%C6%B0%E1%BB%A3c%20BIOS.&text=B%E1%BA%A5m%20gi%E1%BB%AF%20ph%C3%ADm%20F12%20%C4%91%E1%BB%83,v%E1%BB%ABa%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng%20l%E1%BA%A1i%20m%C3%A1y.&text=B%E1%BA%A5m%20gi%E1%BB%AF%20ph%C3%ADm%20ESC%20%C4%91%E1%BB%83%20v%C3%A0o%20BIOS%20khi%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng%20l%E1%BA%A1i%20m%C3%A1y.">hướng dẫn</a> của máy tính để xác định phím đúng.</li>
+</ul>
+</li>
+<li><p><strong>Thiết lập Boot Order:</strong></p>
+<ul>
+<li>Trong BIOS/UEFI, tìm mục &quot;Boot&quot; hoặc &quot;Boot Order&quot;...</li>
+<li>Chọn thiết bị USB làm thiết bị khởi đầu chính (Primary Boot Device). Bạn có thể di chuyển USB lên đầu danh sách hoặc chọn USB và sử dụng các phím +/- để sắp xếp lại thứ tự.</li>
+</ul>
+</li>
+<li><p><strong>Lưu và thoát:</strong></p>
+<ul>
+<li>Lưu các thay đổi bạn vừa thực hiện và thoát BIOS.</li>
+</ul>
+</li>
+<li><p><strong>Khởi động từ USB:</strong></p>
+<ul>
+<li>Khởi động lại máy và chờ đợi cho quá trình khởi động từ USB. Nếu bạn đã làm đúng, bạn sẽ thấy menu của Ventoy hiển thị các file ISO bạn đã sao chép vào USB.</li>
+</ul>
+</li>
+<li><p><strong>Chọn image Arch Linux và bắt đầu cài đặt:</strong></p>
+<ul>
+<li>Chọn file <a href="https://mirror.bizflycloud.vn/archlinux/iso/latest/">ISO của Arch Linux</a> từ menu Ventoy và bắt đầu quá trình cài đặt.</li>
+</ul>
+</li>
+</ol>
 <h3 id="1-đồng-bộ-hóa-thời-gian-với-hệ-thống-⏰">1. Đồng bộ hóa thời gian với hệ thống ⏰</h3>
 <ul>
     <li>Sử dụng các lệnh sau để đồng bộ hóa thời gian và cài đặt múi giờ:</li>
