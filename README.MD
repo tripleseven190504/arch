@@ -2,11 +2,11 @@
 <h2 id="chuẩn-bị-🛠️">Chuẩn bị 🛠️</h2>
 <h3 id="tạo-usb-boot-bằng-ventoy">Tạo USB Boot bằng Ventoy:</h3>
 <p><strong>Tạo USB Boot:</strong>
-    -   Tải phiên bản mới nhất của Ventoy trên GitHub: <a href="https://github.com/ventoy/Ventoy/releases/">Ventoy GitHub</a>.
-    -   Gắn USB vào máy tính của bạn.
-    -   Mở Ventoy và chọn USB bạn muốn tạo.
-    -  Chọn <a href="https://quantrimang.com/cong-nghe/gpt-va-mbr-khac-nhau-nhu-the-nao-khi-phan-vung-o-dia-122635">GPT hoặc MBR</a> từ  Option
-    -   Nhấn nút &quot;Install&quot; để cài đặt Ventoy vào USB.
+    -   Tải phiên bản mới nhất của Ventoy trên GitHub: <a href="https://github.com/ventoy/Ventoy/releases/">Ventoy GitHub</a>.<br>
+    -   Gắn USB vào máy tính của bạn.<br>
+    -   Mở Ventoy và chọn USB bạn muốn tạo.<br>
+    -  Chọn <a href="https://quantrimang.com/cong-nghe/gpt-va-mbr-khac-nhau-nhu-the-nao-khi-phan-vung-o-dia-122635">GPT hoặc MBR</a> từ  Option<br>
+    -   Nhấn nút &quot;Install&quot; để cài đặt Ventoy vào USB.<br>
     -   Sao chép file <a href="https://mirror.bizflycloud.vn/archlinux/iso/latest/">ISO của Arch Linux</a> (và bất kỳ hệ điều hành khác bạn muốn cài đặt) vào USB.</p>
 <h3 id="thiết-lập-bios-để-boot-từ-usb">Thiết lập BIOS để Boot từ USB:</h3>
 <p>Lưu ý: Các bước này có thể thay đổi tùy thuộc vào phiên bản BIOS của bạn. Dưới đây là một hướng dẫn tổng quát:</p>
