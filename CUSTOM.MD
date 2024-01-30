@@ -27,7 +27,7 @@ sudo chsh --shell $(which zsh) $USER
 <ul>
     <li>Visual Studio Code:</li>
 </ul>
-<pre><code class="language-shell">sudo pacman -S code
+<pre><code class="language-shell">yay -S visual-studio-code-bin
 </code></pre>
 <ul>
     <li>Terminal:</li>
